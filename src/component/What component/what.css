@@ -1,0 +1,18 @@
+.d-flex img{
+    background-color: transparent;
+    width: 5em;
+    margin-left: 10px;
+}
+.chat{
+    width: 12em;
+    height: 3em;
+    padding-top: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 120;
+    margin: 1.2em 0px 0px 0px;
+    border-radius: 10px;
+}
+.d-flex{
+    cursor: pointer;
+}
