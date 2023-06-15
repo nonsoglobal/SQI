@@ -5,9 +5,7 @@
     return (
         <nav className="Navb" id="Navv" >
             <div className="logo">
-            {/* <img src='{Logo}' /> */}
-                {/* <img src="./Logo.jpg" alt="#" /> */}
-                <img src='https://edu.sqi.ng/wp-content/uploads/2019/01/co.jpg' alt='#' />
+            <img src={require('../../img/logo.jpg')} alt="" />
             </div>
             <button className="nav-btn1">
                 About

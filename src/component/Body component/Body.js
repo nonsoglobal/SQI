@@ -13,7 +13,8 @@ const Nav = () => {
 
                 </div>
                 <div className="study-img">
-                    <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/sqimodel.png" alt="" />
+                    <img src={require('../../img/laptopman.png')} alt="" />
+                    {/* <img src={require('./img/logo.jpg')} alt="" />   */}
                  
                 </div>
             </div>
@@ -23,41 +24,40 @@ const Nav = () => {
             <div className="companies-div">
                 <div className="sub-div">
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/google.png" alt="" />
+                    <img src={require('../../img/google1.JPG')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Interswitch.png" alt="" />
+                        <img src= {require('../../img/intersw2.JPG')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Andela-log-landscape-blue-400px.png" alt="" />
+                    <img src={require('../../img/Andela.png')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Microsoft_logo.png" alt="" />
+                    <img src={require('../../img/micro4.JPG')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Paystack.png" alt="" />
+                    <img src={require('../../img/payst12.JPG')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/brewery.png" alt="" />
+                    <img src={require('../../img/breweries.JPG')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Wema-Bank-Logo.png" alt="" />
+                    <img src={require('../../img/wema7.JPG')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/clan-logo.png" alt="" />
-                    </div>
-
-                    <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/edozzier.png" alt="" />
+                    <img src={require('../../img/credit8.JPG')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/moneymie.png" alt="" />
+                    <img src={require('../../img/edozzier.png')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/Nigerian_Army.png" alt="" />
+                    <img src={require('../../img/moneymie.png')} alt="" />
                     </div>
                     <div className="payments">
-                        <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/aella-credit.png" alt="" />
+                    <img src={require('../../img/Nigerian_Army.png')} alt="" />
+                    </div>
+                    <div className="payments">
+                    <img src={require('../../img/aella-credit.png')} alt="" />
                     </div>
 
 
@@ -69,7 +69,7 @@ const Nav = () => {
 
             <div className="make-afrika">
                 <div className="afr-img">
-                    <img src="https://edu.sqi.ng/wp-content/uploads/2023/04/sqi-graduate1.jpg" alt="" />
+                <img src={require('../../img/sqi-college-students.png')} alt="" />
                 </div>
 
                 <div className="afr-worda">
@@ -91,27 +91,26 @@ const Nav = () => {
                     <a href="##">View all Courses</a>
                     <div className="caus">
                         <div className="caus-img">
-                            <img src="https://edu.sqi.ng/wp-content/uploads/2023/01/software-engineering-630x330-1.webp" alt="" />
+                        <img src={require('../../img/software-engineering.webp')} alt="" />
                         </div>
                         <h2>Software Engineering</h2>
                         <h6>Software Engineering is one of the most in-demand jobs across the globe today.</h6>
                         <h6>Software Engineers are also known as programmers, <br /> developers or coders. They are the ones behind all the apps and software you use today either on your phone or computer within your browser. Software such as banking apps, booking apps, mailing apps (e.g Gmail), Chat apps (e.g WhatsApp) and other Social apps (e.g Twitter, Facebook) and many more are created by software engineers.</h6>
 
-                        <a href="#"> Learn More </a>
-
+                        <div href=""> Learn More </div>
 
 
                     </div>
 
                     <div className="product">
                         <div className="caus-img">
-                            <img src="https://edu.sqi.ng/wp-content/uploads/2023/01/DATA-SQI.jpg" alt="" />
+                        <img src={require('../../img/DATA-SQI.jpg')} alt="" />
                         </div>
                         <h2>UI/UX – Product Design</h2>
                         <h6>More than ever before individuals and businesses are relying on digital products and services. From online meeting tools to finance, from e-commerce platforms to healthcare and food apps. Making an intuitive digital product design is even more import at this time as it determines the overall experience of the users.</h6>
                         <h6>Here, you’ll build your product design skillset from the bottom up with lessons, mentorship sessions, and career advice from our design professionals.</h6>
 
-                        <a href="#"> Learn More </a>
+                        <div href="#"> Learn More </div>
 
                     </div>
 
@@ -120,36 +119,33 @@ const Nav = () => {
 
                     <div className="dat">
                         <div className="dat-img">
-                            <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/product.jpg" alt="" />
+                        <img src={require('../../img/product.jpg')} alt="" />
                         </div>
 
                         <h2>Data Science & Analysis</h2>
                         <h6>The eruption of data is transforming indiviuals and businesses. Companies either big or small are now expecting their business decisions to be based on data-led insight.</h6>
                         <h6>Data specialists have a tremendous impact on business strategies and marketing tactics because everyone now depends on data to formulate improved strategies for the future of their companies.</h6>
 
-                        <a href="#"> Learn More </a>
+                        <div href="#"> Learn More </div>
 
 
                     </div>
 
                     <div className="digital">
                         <div className="dat-img">
-                            <img src="https://edu.sqi.ng/wp-content/uploads/2023/03/digital-literacy.jpg" alt="" />
+                        <img src={require('../../img/digital-literacy.jpg')} alt="" />
                         </div>
 
                         <h2>Digital Literacy</h2>
                         <h6>This course is designed to prepare you for success in a modern world full of computers—not only the traditional computers such as desktop and notebook PCs but also computers that you interact with in other places too, like your bank’s ATM or your employer’s computerized cash register. In this course, you will learn about the technologies that drive our computerized society, including the Internet and local area networks (LANs).</h6>
                         <h6>Taking this course will help you become a digitally literate person—that is, someone who understands how computer technology fits into our modern society and knows how to navigate a variety of computing environments.</h6>
 
-                        <a href="#"> Learn More </a>
+                        <div href="#"> Learn More </div>
 
 
                     </div>
 
-
                 </div>
-
-
 
             </div>
 
@@ -189,8 +185,6 @@ const Nav = () => {
                         <h5>Our courses are practical, hands-on learning. Practice and apply knowledge faster with real-world Web Development projects you can show off.</h5>
                     </div>
 
-
-
                 </div>
 
             </div>
@@ -200,15 +194,12 @@ const Nav = () => {
                 <h6>Read what our current students and alumni have to say about their SQI <br /> experience.</h6>
             </div>
 
-
             <div className="testi">
                 <div className="fixed-test">
-
 
                 </div>
 
                 <div className="carol-test">
-
 
                 </div>
 
@@ -217,7 +208,7 @@ const Nav = () => {
             <div className="yout-div">
 
                 <div className="yout-vid">
-                    <video className="vidd" src="https://youtu.be/HgC6bjMbqpw" controls width="100%" height="100%"></video>
+                    <video className="vidd" src= {require('../../img/true.mp4')} controls width="100%" height="100%"></video>
 
                 </div>
 
@@ -242,19 +233,11 @@ const Nav = () => {
 
                 <button>Join Us Today </button>
 
-
             </div>
-
 
             <button className="upp"> Scrolll Up</button>
 
-
-
-
-
         </body>
-
-
 
     )
 }
